@@ -1,47 +1,52 @@
-REAL ESTATE TIME SERIES ANALYSIS.
+#REAL ESTATE TIME SERIES ANALYSIS.
 
-1). Business Understanding
+#1). Business Understanding
 
 Real estate investment is a lucrative and dynamic industry that requires careful analysis and decision-making. The fictional real
 estate investment firm is seeking guidance on identifying the top 5 zip codes for investment opportunities. To address this question, 
 historical data from Zillow Research is utilized.
-i) Background:
+
+#i) Background:
 
 Real estate investment is a lucrative and dynamic industry that requires careful analysis and decision-making. The fictional real estate
 investment firm is seeking guidance on identifying the top 5 zip codes for investment opportunities. To address this question, historical 
 data from Zillow Research is utilized. The dataset contains information on various attributes, including RegionID, RegionName, City, State,
 Metro, SizeRank, CountyName, and value (real estate prices).
-ii). Main Objective:
+
+#ii). Main Objective:
 
 The main objective of this project is to identify the top 5 zip codes that offer the best investment potential in terms of real estate prices.
 By analyzing historical trends and patterns, the project aims to provide actionable insights to the investment firm, enabling them to make informed decisions on where to allocate their resources.
 Specific Objectives:
 
-    Analyze Historical Data: The project involves analyzing the historical data of real estate prices across different zip codes. This includes understanding the trends, patterns, and fluctuations in property values over time.
+Analyze Historical Data: The project involves analyzing the historical data of real estate prices across different zip codes. This includes understanding the trends, patterns, and fluctuations in property values over time.
 
-    Identify Promising Zip Codes: Using the analysis of historical data, the project aims to identify the zip codes that have shown consistent growth, stability, or potential for future appreciation. These zip codes are considered the most favorable for investment.
+Identify Promising Zip Codes: Using the analysis of historical data, the project aims to identify the zip codes that have shown consistent growth, stability, or potential for future appreciation. These zip codes are considered the most favorable for investment.
 
-    Consider Location Factors: In addition to the historical performance, the project also takes into account location-specific factors such as city, state, and metro. This information helps assess the overall desirability and attractiveness of the investment opportunities.
+Consider Location Factors: In addition to the historical performance, the project also takes into account location-specific factors such as city, state, and metro. This information helps assess the overall desirability and attractiveness of the investment opportunities.
 
-    Evaluate Market SizeRank: The SizeRank attribute provides insights into the relative size and competitiveness of the real estate market in each zip code. This factor helps gauge the potential opportunities and risks associated with investing in a particular area.
-    2). Data Understanding
+Evaluate Market SizeRank: The SizeRank attribute provides insights into the relative size and competitiveness of the real estate market in each zip code. This factor helps gauge the potential opportunities and risks associated with investing in a particular area.
+    
+#2). Data Understanding
 
 The dataset contains information on various attributes, including RegionID, RegionName, City, State, Metro, SizeRank, CountyName, and value
 (real estate prices). Our dataset is the Zillow Housing Dataset which was sourced from Zillow Research Page.
 
 In order to understand how our dataset looks like lets get a preview of this data by loading it.
-3). Data Preparation
+
+#3). Data Preparation
 
 This is to make the data in a format that is good to feed to our model.It involves the following series of steps:
 
-    Cleaning the data
+#Cleaning the data
 
-    Checking for and dealing with missing values
+Checking for and dealing with missing values
 
-    Reshaping our dataset from wide to long format
-    4). Exploratory Data Analysis
+Reshaping our dataset from wide to long format
+    
+#4). Exploratory Data Analysis
 
-    This is basically trying to figure out more about our data , its behaviours and patterns This involves the following :
+This is basically trying to figure out more about our data , its behaviours and patterns This involves the following :
 
         Grouping the data by month.
 
