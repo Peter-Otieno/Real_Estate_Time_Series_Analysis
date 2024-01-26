@@ -1,19 +1,19 @@
-##REAL ESTATE TIME SERIES ANALYSIS
+## REAL ESTATE TIME SERIES ANALYSIS
 
-#1). Business Understanding
+# 1). Business Understanding
 
 Real estate investment is a lucrative and dynamic industry that requires careful analysis and decision-making. The fictional real
 estate investment firm is seeking guidance on identifying the top 5 zip codes for investment opportunities. To address this question, 
 historical data from Zillow Research is utilized.
 
-#i) Background:
+# i) Background:
 
 Real estate investment is a lucrative and dynamic industry that requires careful analysis and decision-making. The fictional real estate
 investment firm is seeking guidance on identifying the top 5 zip codes for investment opportunities. To address this question, historical 
 data from Zillow Research is utilized. The dataset contains information on various attributes, including RegionID, RegionName, City, State,
 Metro, SizeRank, CountyName, and value (real estate prices).
 
-#ii). Main Objective:
+# ii). Main Objective:
 
 The main objective of this project is to identify the top 5 zip codes that offer the best investment potential in terms of real estate prices.
 By analyzing historical trends and patterns, the project aims to provide actionable insights to the investment firm, enabling them to make informed decisions on where to allocate their resources.
@@ -27,24 +27,24 @@ Consider Location Factors: In addition to the historical performance, the projec
 
 Evaluate Market SizeRank: The SizeRank attribute provides insights into the relative size and competitiveness of the real estate market in each zip code. This factor helps gauge the potential opportunities and risks associated with investing in a particular area.
     
-#2). Data Understanding
+# 2). Data Understanding
 
 The dataset contains information on various attributes, including RegionID, RegionName, City, State, Metro, SizeRank, CountyName, and value
 (real estate prices). Our dataset is the Zillow Housing Dataset which was sourced from Zillow Research Page.
 
 In order to understand how our dataset looks like lets get a preview of this data by loading it.
 
-#3). Data Preparation
+# 3). Data Preparation
 
 This is to make the data in a format that is good to feed to our model.It involves the following series of steps:
 
-#Cleaning the data
+# Cleaning the data
 
 Checking for and dealing with missing values
 
 Reshaping our dataset from wide to long format
     
-#4). Exploratory Data Analysis
+# 4). Exploratory Data Analysis
 
 This is basically trying to figure out more about our data , its behaviours and patterns This involves the following :
 
